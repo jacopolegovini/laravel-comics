@@ -17,7 +17,7 @@ $headerList = [
 <header>
     <div class="container header-flex">
         <div class="img-header">
-            <img src="../../../public/img/dc-logo.png" alt="logo DC">
+            <img src="http://localhost:8000/img/dc-logo.png" alt="logo DC">
         </div>
         <div class="navbar-header">
             <ul class="navbar-header-flex">
@@ -31,5 +31,8 @@ $headerList = [
         <div class="sandwich-menu">
             <section>Search</section>
         </div>
+    </div>
+    <div class="jumbotron-img">
+        <img src="http://localhost:8000/img/jumbotron.jpg" alt="Jumbotron-img">
     </div>
 </header>

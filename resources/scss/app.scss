@@ -12,12 +12,9 @@ ul {
 .highlight-navbar {
     border-bottom: 2px solid #0282F9;
     color: #0282F9;
-    height: 149.5px;
 }
 
-header {
-    height: 150px;
-}
+header {}
 
 .header-flex {
     height: 100%;
@@ -56,9 +53,18 @@ header {
     }
 
     .sandwich-menu {
+        color: gray;
+        font-weight: bold;
         padding-left: 30px;
         margin-left: 20px;
         text-align: end;
         border-bottom: 2px solid #0282F9;
     }
+}
+
+.jumbotron-img>img {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 50%;
 }
