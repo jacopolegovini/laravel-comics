@@ -1,3 +1,19 @@
+<?php
+$headerList = [
+    'CHARACTER',
+    'COMICS',
+    'MOVIES',
+    'TV',
+    'GAMES',
+    'COLLECTIBLES',
+    'VIDEOS',
+    'FANS',
+    'NEWS',
+    'SHOP',
+]
+
+?>
+
 <header>
     <div class="container header-flex">
         <div class="img-header">
@@ -5,10 +21,15 @@
         </div>
         <div class="navbar-header">
             <ul class="navbar-header-flex">
-                <li>
-                    <div>list</div>
-                </li>
+                @foreach ($headerList as $element)
+                    <li>
+                        {{$element}}
+                    </li>
+                @endforeach
             </ul>
+        </div>
+        <div class="sandwich-menu">
+            <section>Search</section>
         </div>
     </div>
 </header>

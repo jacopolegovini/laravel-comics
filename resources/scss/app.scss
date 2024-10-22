@@ -23,11 +23,11 @@ header {
     height: 100%;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     .img-header {
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
 
     .navbar-header {
@@ -55,12 +55,10 @@ header {
         cursor: pointer;
     }
 
-}
-
-.sandwich-menu {
-    position: relative;
-    z-index: 1;
-    color: black;
-    background-color: white;
-    height: 270px;
+    .sandwich-menu {
+        padding-left: 30px;
+        margin-left: 20px;
+        text-align: end;
+        border-bottom: 2px solid #0282F9;
+    }
 }
