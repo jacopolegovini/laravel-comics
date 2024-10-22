@@ -132,6 +132,13 @@ return [
             "name" => "dc power visa",
             "url" => "buy-comics-digital-comics.png"
         ],
+    ],
+
+    "dcLists" => [
+        ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
+        ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"],
+        ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
+        ["Shop DC", "Shop DC Collectibles"]
     ]
 
 ];
