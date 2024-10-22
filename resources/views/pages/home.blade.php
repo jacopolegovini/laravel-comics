@@ -6,14 +6,14 @@
 
 <?php $comics = config("db.comics") ?>
 
-<h1>
-    Homepage
-    <ul>
-        {{-- @foreach ($comics as $comic )
+<main>
+    <ul class="comic-list container d-flex justify-content-between">
+        @foreach ($comics as $comic )
             <li>
-                {{$comic["title"]}}
+                <img src="http://localhost:8000/img/adv.jpg" alt="">
+                <p>{{$comic["series"]}}</p>
             </li>
-        @endforeach --}}
+        @endforeach
     </ul>
-</h1>
+</main>
 @endsection

@@ -68,3 +68,24 @@ header {}
     object-fit: cover;
     object-position: 100% 50%;
 }
+
+
+// ! Main
+main {
+    background-color: #1C1C1C;
+}
+
+.comic-list {
+    flex-grow: 0;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.comic-list li {
+    flex-basis: calc((100% / 6) - 100px);
+}
+
+.comic-list p {
+    color: white;
+}
