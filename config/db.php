@@ -109,5 +109,29 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+
+    "cta" => [
+        [
+            "name" => "Digital Comics",
+            "url" => "buy-comics-digital-comics.png"
+        ],
+        [
+            "name" => "dc merchandise",
+            "url" => "buy-comics-merchandise.png"
+        ],
+        [
+            "name" => "subscription",
+            "url" => "buy-comics-shop-locator.png"
+        ],
+        [
+            "name" => "comic shop locator",
+            "url" => "buy-comics-subscriptions.png"
+        ],
+        [
+            "name" => "dc power visa",
+            "url" => "buy-comics-digital-comics.png"
+        ],
     ]
+
 ];

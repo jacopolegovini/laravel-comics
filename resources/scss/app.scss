@@ -71,7 +71,12 @@ header {}
 
 
 // ! Main
-main {
+
+ul {
+    margin: 0;
+}
+
+.comic-list-general {
     background-color: #1C1C1C;
 }
 
@@ -88,4 +93,13 @@ main {
 
 .comic-list p {
     color: white;
+}
+
+.main-cta {
+    background-color: #0282F9;
+}
+
+.main-cta p {
+    color: white;
+    text-transform: uppercase;
 }
