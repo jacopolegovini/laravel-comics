@@ -1,1 +1,66 @@
 @use "~bootstrap/scss/bootstrap" as *;
+
+body {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+// Header
+.highlight-navbar {
+    border-bottom: 2px solid #0282F9;
+    color: #0282F9;
+    height: 149.5px;
+}
+
+header {
+    height: 150px;
+}
+
+.header-flex {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .img-header {
+        flex-basis: 40%;
+    }
+
+    .navbar-header {
+        height: 100%;
+    }
+
+    .navbar-header-flex {
+        gap: 15px;
+        font-weight: bold;
+        color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    li {
+        height: 100%;
+        text-transform: uppercase;
+        line-height: 150px;
+        cursor: pointer;
+    }
+
+}
+
+.sandwich-menu {
+    position: relative;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    height: 270px;
+}
