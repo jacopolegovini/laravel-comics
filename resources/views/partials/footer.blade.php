@@ -6,7 +6,7 @@ $dcLists4 = config("db.dcLists4");
 ?>
 
 <footer>
-    <div class="list-footer d-flex">
+    <div class="list-footer">
         <div class="list-sx container d-flex">
             <ul>
                 @foreach ($dcLists1 as $dcList)
@@ -40,12 +40,12 @@ $dcLists4 = config("db.dcLists4");
             </ul>
         </div>
     </div>
-    <div class="container social-footer">
+    <div class="social-footer">
         <div class="sign-up">
             <p>SIGN-UP NOW!</p>
         </div>
         <div class="social-icon">
-            <p>FOLLOW ME</p>
+            <p>FOLLOW US</p>
             <img src="http://localhost:8000/img/footer-facebook.png" alt="Facebook">
             <img src="http://localhost:8000/img/footer-twitter.png" alt="Twitter">
             <img src="http://localhost:8000/img/footer-youtube.png" alt="Youtube">

@@ -105,13 +105,26 @@ ul {
 
 // ! Footer
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .list-footer {
     background-image: url(http://localhost:8000/img/footer-bg.jpg);
     color: white;
+    display: flex;
     justify-content: start;
+    flex-grow: 0;
+    padding: 20px 0;
 }
 
 .list-sx {
-    flex-grow: 0;
     flex-direction: column;
+    flex-basis: 20%;
+}
+
+.social-footer {
+    background-color: #303030;
+    color: white;
 }
