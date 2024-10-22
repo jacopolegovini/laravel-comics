@@ -14,8 +14,6 @@ ul {
     color: #0282F9;
 }
 
-header {}
-
 .header-flex {
     height: 100%;
     padding: 0;
@@ -106,3 +104,14 @@ ul {
 
 
 // ! Footer
+
+.list-footer {
+    background-image: url(http://localhost:8000/img/footer-bg.jpg);
+    color: white;
+    justify-content: start;
+}
+
+.list-sx {
+    flex-grow: 0;
+    flex-direction: column;
+}

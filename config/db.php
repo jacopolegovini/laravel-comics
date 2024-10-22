@@ -134,11 +134,48 @@ return [
         ],
     ],
 
-    "dcLists" => [
-        ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
-        ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"],
-        ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
-        ["Shop DC", "Shop DC Collectibles"]
+    "dcListTitle" => [
+        "dc comics",
+        "dc",
+        "dc comics",
+        "sites"
+    ],
+
+    "dcLists1" => [
+        "Characters",
+        "Comics",
+        "Movies",
+        "TV",
+        "Games",
+        "Videos",
+        "News",
+    ],
+
+    "dcLists2" => [
+        "Terms Of Use",
+        "Privacy policy (New)",
+        "Ad Choices",
+        "Advertising",
+        "Jobs",
+        "Subscriptions",
+        "Talent Workshops",
+        "CPSC Certificates",
+        "Ratings",
+        "Shop Help",
+        "Contact Us",
+    ],
+
+    "dcLists3" => [
+        "DC",
+        "MAD Magazine",
+        "DC Kids",
+        "DC Universe",
+        "DC Power Visa",
+    ],
+
+    "dcLists4" => [
+        "Shop DC",
+        "Shop DC Collectibles"
     ]
 
 ];

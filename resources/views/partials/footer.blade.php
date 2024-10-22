@@ -1,6 +1,44 @@
-<footer>
-    <div class="container list-footer">
+<?php $dcListTitle = config("db.dcListTitle");
+$dcLists1 = config("db.dcLists1");
+$dcLists2 = config("db.dcLists2");
+$dcLists3 = config("db.dcLists3");
+$dcLists4 = config("db.dcLists4");
+?>
 
+<footer>
+    <div class="list-footer d-flex">
+        <div class="list-sx container d-flex">
+            <ul>
+                @foreach ($dcLists1 as $dcList)
+                    <li>
+                        {{$dcList}}
+                    </li>
+                @endforeach
+            </ul>
+            <ul>
+                @foreach ($dcLists4 as $dcList)
+                    <li>
+                        {{$dcList}}
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+        <div class="list-dx container d-flex">
+            <ul>
+                @foreach ($dcLists3 as $dcList)
+                    <li>
+                        {{$dcList}}
+                    </li>
+                @endforeach
+            </ul>
+            <ul>
+                @foreach ($dcLists2 as $dcList)
+                    <li>
+                        {{$dcList}}
+                    </li>
+                @endforeach
+            </ul>
+        </div>
     </div>
     <div class="container social-footer">
         <div class="sign-up">
