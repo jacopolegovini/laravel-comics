@@ -93,6 +93,12 @@ ul {
     color: white;
 }
 
+.comic-list img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
 .main-cta {
     background-color: #0282F9;
 }

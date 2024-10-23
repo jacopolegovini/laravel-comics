@@ -12,8 +12,8 @@ $cta = config("db.cta");
     <div class="comic-list-general">
         <ul class="comic-list container d-flex justify-content-between">
             @foreach ($comics as $comic )
-                <li>
-                    <img src="http://localhost:8000/img/adv.jpg" alt="">
+                <li class="square-box">
+                    <img src="{{$comic["thumb"]}}" alt="">
                     <p>{{$comic["series"]}}</p>
                 </li>
             @endforeach
