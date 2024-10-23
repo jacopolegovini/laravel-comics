@@ -19,7 +19,8 @@ Route::get('/', function () {
     return view('pages.home', compact("comics"), compact("cta"));
 })->name("home");
 
-Route::get('/comic/{id}', function (string $id) {
-    dd($id);
-    return view('pages.comic');
-})->name("comic");
+Route::get('/comic/{id}', function (int $id) {
+    $comic = config("db.comics")[$id];
+    dd($comic);
+    return view('pages.comic', compact("comic"));
+})->name("pages.comic");

@@ -7,10 +7,12 @@
 <main>
     <div class="comic-list-general">
         <ul class="comic-list container d-flex justify-content-between">
-            @foreach ($comics as $comic )
+            @foreach ($comics as $key => $comic)
                 <li class="square-box">
-                    <img src="{{$comic["thumb"]}}" alt="">
-                    <p>{{$comic["series"]}}</p>
+                    <a href="{{route("pages.comic", $key)}}">
+                        <img src="{{$comic["thumb"]}}" alt="">
+                        <p>{{$comic["series"]}}</p>
+                    </a>
                 </li>
             @endforeach
         </ul>
