@@ -32,7 +32,4 @@ $headerList = [
             <section>Search</section>
         </div>
     </div>
-    <div class="jumbotron-img">
-        <img src="http://localhost:8000/img/jumbotron.jpg" alt="Jumbotron-img">
-    </div>
 </header>

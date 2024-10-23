@@ -5,6 +5,9 @@
 @section("main-content")
 
 <main>
+    <div class="jumbotron-img">
+        <img src="http://localhost:8000/img/jumbotron.jpg" alt="Jumbotron-img">
+    </div>
     <div class="comic-list-general">
         <ul class="comic-list container d-flex justify-content-between">
             @foreach ($comics as $key => $comic)

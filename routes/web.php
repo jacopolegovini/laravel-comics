@@ -21,6 +21,5 @@ Route::get('/', function () {
 
 Route::get('/comic/{id}', function (int $id) {
     $comic = config("db.comics")[$id];
-    dd($comic);
     return view('pages.comic', compact("comic"));
 })->name("pages.comic");
