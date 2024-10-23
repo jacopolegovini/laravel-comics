@@ -4,10 +4,6 @@
 
 @section("main-content")
 
-<?php $comics = config("db.comics");
-$cta = config("db.cta");
-?>
-
 <main>
     <div class="comic-list-general">
         <ul class="comic-list container d-flex justify-content-between">
